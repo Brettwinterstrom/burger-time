@@ -9,8 +9,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 var exphbs = require("express-handlebars");
+const orm = require("./Main/config/orm");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
+
+orm.selectAll("burger",);
 
 
 app.listen(PORT, function () {
