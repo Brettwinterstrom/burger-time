@@ -1,0 +1,25 @@
+.jumbotron {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("/assets/img/burger.jpg");
+    background-position:-5rem;
+
+  }
+  #newburger {
+    color:  #1c81d4;
+  }
+  #leftside {
+    background-color:lightgreen;
+    color: black;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  #rightside {
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+
+
+  
